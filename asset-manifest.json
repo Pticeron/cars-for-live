@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cars-for-live/static/css/main.7acaea2f.css",
+    "main.js": "/cars-for-live/static/js/main.07d3183d.js",
+    "index.html": "/cars-for-live/index.html",
+    "main.7acaea2f.css.map": "/cars-for-live/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/cars-for-live/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
