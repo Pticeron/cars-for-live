@@ -1,14 +1,14 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Container, Header, Logo, Link } from "./Layout.styled";
-import logo from '../../images/logo.png'
+import auto from '../../images/auto.png'
 
 export const Layout = () => {
   return (
     <Container>
       <Header>
         <Logo>
-        <img src={logo } alt="Rental Cars" width={120} height={80}/>
+        <img src={auto } alt="Rental Cars" width={120} height={80}/>
         </Logo>
         <nav>
           <Link to="/" end>
