@@ -1,26 +1,22 @@
 const Reviews = () => {
-    return (
-      <section>
-        <div>
-          <h2>First review - 4.6/5</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem harum
-            architecto sapiente corporis, voluptatem quas voluptatibus fugiat
-            nulla commodi quidem, dolorem distinctio inventore blanditiis illo
-            tenetur aut enim ex laborum!
-          </p>
-        </div>
-        <div>
-          <h2>Second review - 4.8/5</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            nihil ea, eaque fugit amet possimus officiis asperiores aperiam facere
-            et?
-          </p>
-        </div>
-      </section>
-    );
-  };
-  
-  export default Reviews;
-  
+  return (
+    <section>
+      <div>
+        <h2>Умови оренди автомобіля</h2>
+        <p>
+          Особа, яка орендує автомобіль, повинна мати дійсне посвідчення водія,
+          стаж водіння від 2 років, а також вік не менше 23 років. Рішення про
+          допуск водія, що не відповідає цим вимогам, приймаються індивідуально.
+        </p>
+      </div>
+      <div>
+        <h2>Необхідні документи</h2>
+        <p>Паспорт <br></br>
+         Водійське посвідчення  <br></br>
+         ІПН (для громадян України)</p>
+      </div>
+    </section>
+  );
+};
+
+export default Reviews;

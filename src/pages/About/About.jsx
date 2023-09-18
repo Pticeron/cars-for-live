@@ -4,29 +4,23 @@ import { Link, Outlet } from "react-router-dom";
 const About = () => {
   return (
     <main>
-      <h1>About Us</h1>
+      <h1>Як забронювати авто?</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-        laborum amet ab cumque sit nihil dolore modi error repudiandae
-        perspiciatis atque voluptas corrupti, doloribus ex maiores quam magni
-        mollitia illum dolor quis alias in sequi quod. Sunt ex numquam hic
-        asperiores facere natus sapiente cum neque laudantium quam, expedita
-        voluptates atque quia aspernatur saepe illo, rem quasi praesentium
-        aliquid sed inventore obcaecati veniam? Nisi magnam vero, dolore
-        praesentium totam ducimus similique asperiores culpa, eius amet
-        repudiandae quam ut. Architecto commodi, tempore ut nostrum voluptas
-        dolorum illum voluptatum dolores! Quas perferendis quis alias excepturi
-        eaque voluptatibus eveniet error, nulla rem iusto?
+      У сучасному суспільстві такі цінності як час і комфорт все більше виходять на передній план, тому така послуга як оренда автомобіля – вже перестала бути розкішшю, а стала щоденною необхідністю.
+
+Залежно від ситуації покупка машини не завжди є доцільним вкладенням коштів. Наприклад, для гостей Києва в туристичних, або бізнес цілях найкращим рішенням буде подобовий прокат авто – це недорого для вирішення тимчасових питань. Для резидентів столиці дана послуга також буде корисна під здійснення різного роду поїздок по Україні: оренда авто на весілля, відпочинок, фотосесію або просто в розважальних цілях.
+
+Життя непередбачуване і ніколи не знаєш, в яких ситуаціях може терміново знадобиться прокат автомобіля. Для вирішення даної проблеми існує сервіс компанії TopRent – послуги автопрокату №1 в Києві. Ми пропонуємо взяти машину в оренду на найвигідніших умовах – від 18 $ на добу.
       </p>
       <ul>
         <li>
-          <Link to="mission">Read about our mission</Link>
+          <Link to="mission">Чи є обмеження щодо пробігу при оренді автомобілів?</Link>
         </li>
         <li>
-          <Link to="team">Get to know the team</Link>
+          <Link to="team">Як я можу сплатити оренду автомобіля</Link>
         </li>
         <li>
-          <Link to="reviews">Go through the reviews</Link>
+          <Link to="reviews">Які документи необхідні для оренди автомобіля?</Link>
         </li>
       </ul>
       <Suspense fallback={<div>Loading subpage...</div>}>

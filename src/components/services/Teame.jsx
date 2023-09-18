@@ -1,23 +1,16 @@
 const Team = () => {
     return (
       <section>
-        <ul>
-          <li>
-            <b>CEO</b> - Gabrijela Vohu Manah
-          </li>
-          <li>
-            <b>Sales</b> - Darius Marianne
-          </li>
-          <li>
-            <b>Product</b> - Ségdae Jean-Pierre
-          </li>
-          <li>
-            <b>Marketing</b> - Melina Theotimos
-          </li>
-          <li>
-            <b>Engineering</b> - Gregor Ramadhani
-          </li>
-        </ul>
+        <h2>Умови оплати</h2>
+        <p>
+        Платіжні картки Visa/Mastercard
+Безготівковий розрахунок із ПДВ
+Apple Pay та Google Pay
+Оплата онлайн на сайті
+        </p>
+        <p>
+        Водії, що видають автомобілі, завжди мають бездротові платіжні термінали.
+        </p>
       </section>
     );
   };
