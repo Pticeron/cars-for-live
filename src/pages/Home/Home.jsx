@@ -1,7 +1,3 @@
-import protection from '../../images/protection.png'
-import chair from '../../images/chair.png';
-
-
 const Home = () => {
   return (
     <main>
@@ -10,7 +6,6 @@ const Home = () => {
       <img src="https://via.placeholder.com/960x240" alt="" />
       <ul>
         <li>
-        <img src={protection } alt="protection" width={80} height={60}/>
           <h3>Cтраховка авто</h3>
           <p>
             Подорожуйте спокійно і безпечно - ми беремо всі ризики на себе, адже
@@ -25,7 +20,6 @@ const Home = () => {
           </p>
         </li>
         <li>
-        <img src={chair } alt="chair" width={80} height={60}/>
           <h3>Дитяче крісло</h3>
           <p>
             Подорожуєте з дітьми? Захистіть своїх дітей за допомогою комфортного
