@@ -17,6 +17,7 @@ export const Layout = () => {
             Home
           </Link>
           <Link to="/catalog">Catalog</Link>
+          <Link to="/about">About</Link>
           <Link to="/favorites">Favorites</Link>
         </nav>
       </Header>
