@@ -1,30 +1,28 @@
 {
   "files": {
     "main.css": "/cars-for-live/static/css/main.7acaea2f.css",
-    "main.js": "/cars-for-live/static/js/main.c49a801f.js",
+    "main.js": "/cars-for-live/static/js/main.3ced9056.js",
     "static/js/104.860042b6.chunk.js": "/cars-for-live/static/js/104.860042b6.chunk.js",
-    "static/js/851.c5411bc0.chunk.js": "/cars-for-live/static/js/851.c5411bc0.chunk.js",
+    "static/js/544.e36e3db3.chunk.js": "/cars-for-live/static/js/544.e36e3db3.chunk.js",
     "static/js/401.25023063.chunk.js": "/cars-for-live/static/js/401.25023063.chunk.js",
     "static/js/655.38d5a2c8.chunk.js": "/cars-for-live/static/js/655.38d5a2c8.chunk.js",
     "static/js/295.2dd28e23.chunk.js": "/cars-for-live/static/js/295.2dd28e23.chunk.js",
     "static/js/28.0a1f5661.chunk.js": "/cars-for-live/static/js/28.0a1f5661.chunk.js",
-    "static/js/128.92fa5658.chunk.js": "/cars-for-live/static/js/128.92fa5658.chunk.js",
+    "static/js/128.3785dbf4.chunk.js": "/cars-for-live/static/js/128.3785dbf4.chunk.js",
     "static/media/logo.png": "/cars-for-live/static/media/logo.3833befd2bc91a9f96bd.png",
-    "static/media/chair.png": "/cars-for-live/static/media/chair.548572aec69cbea77257.png",
-    "static/media/protection.png": "/cars-for-live/static/media/protection.8c2e24d2cb29eb126e74.png",
     "index.html": "/cars-for-live/index.html",
     "main.7acaea2f.css.map": "/cars-for-live/static/css/main.7acaea2f.css.map",
-    "main.c49a801f.js.map": "/cars-for-live/static/js/main.c49a801f.js.map",
+    "main.3ced9056.js.map": "/cars-for-live/static/js/main.3ced9056.js.map",
     "104.860042b6.chunk.js.map": "/cars-for-live/static/js/104.860042b6.chunk.js.map",
-    "851.c5411bc0.chunk.js.map": "/cars-for-live/static/js/851.c5411bc0.chunk.js.map",
+    "544.e36e3db3.chunk.js.map": "/cars-for-live/static/js/544.e36e3db3.chunk.js.map",
     "401.25023063.chunk.js.map": "/cars-for-live/static/js/401.25023063.chunk.js.map",
     "655.38d5a2c8.chunk.js.map": "/cars-for-live/static/js/655.38d5a2c8.chunk.js.map",
     "295.2dd28e23.chunk.js.map": "/cars-for-live/static/js/295.2dd28e23.chunk.js.map",
     "28.0a1f5661.chunk.js.map": "/cars-for-live/static/js/28.0a1f5661.chunk.js.map",
-    "128.92fa5658.chunk.js.map": "/cars-for-live/static/js/128.92fa5658.chunk.js.map"
+    "128.3785dbf4.chunk.js.map": "/cars-for-live/static/js/128.3785dbf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.c49a801f.js"
+    "static/js/main.3ced9056.js"
   ]
 }
