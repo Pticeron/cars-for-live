@@ -1,4 +1,4 @@
-const Mission = () => {
+const Limitation = () => {
     return (
       <section>
         <h2>Умови оренди</h2>
@@ -13,5 +13,5 @@ const Mission = () => {
     );
   };
   
-  export default Mission;
+  export default Limitation;
   

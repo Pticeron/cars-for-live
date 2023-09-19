@@ -7,10 +7,10 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background-color: #fff;
-  background: rgb(201, 169, 199);
+  background: rgb(163, 212, 230);
   background: linear-gradient(
     180deg,
-    rgba(201, 169, 199, 1) 0%,
+    rgba(163, 212, 230, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
 

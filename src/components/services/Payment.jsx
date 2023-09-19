@@ -1,4 +1,4 @@
-const Team = () => {
+const Payment = () => {
     return (
       <section>
         <h2>Умови оплати</h2>
@@ -15,5 +15,5 @@ Apple Pay та Google Pay
     );
   };
   
-  export default Team;
+  export default Payment;
   
