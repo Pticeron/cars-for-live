@@ -1,21 +1,23 @@
+import {ContentWrapper, ServiceText, SecondaryText} from '../../components/services/Services.styled.js'
+
 const Documents = () => {
   return (
-    <section>
+    <ContentWrapper>
       <div>
-        <h2>Умови оренди автомобіля</h2>
-        <p>
+        <ServiceText>Умови оренди автомобіля</ServiceText>
+        <SecondaryText>
           Особа, яка орендує автомобіль, повинна мати дійсне посвідчення водія,
           стаж водіння від 2 років, а також вік не менше 23 років. Рішення про
           допуск водія, що не відповідає цим вимогам, приймаються індивідуально.
-        </p>
+        </SecondaryText>
       </div>
       <div>
-        <h2>Необхідні документи</h2>
-        <p>Паспорт <br></br>
+        <ServiceText>Необхідні документи</ServiceText>
+        <SecondaryText>Паспорт <br></br>
          Водійське посвідчення  <br></br>
-         ІПН (для громадян України)</p>
+         ІПН (для громадян України)</SecondaryText>
       </div>
-    </section>
+    </ContentWrapper>
   );
 };
 

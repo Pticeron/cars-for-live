@@ -1,17 +1,19 @@
+import {ContentWrapper, ServiceText, SecondaryText} from '../../components/services/Services.styled.js'
+
 const Payment = () => {
     return (
-      <section>
-        <h2>Умови оплати</h2>
-        <p>
+      <ContentWrapper>
+        <ServiceText>Умови оплати</ServiceText>
+        <SecondaryText>
         Платіжні картки Visa/Mastercard
 Безготівковий розрахунок із ПДВ
 Apple Pay та Google Pay
 Оплата онлайн на сайті
-        </p>
-        <p>
+        </SecondaryText>
+        <SecondaryText>
         Водії, що видають автомобілі, завжди мають бездротові платіжні термінали.
-        </p>
-      </section>
+        </SecondaryText>
+      </ContentWrapper>
     );
   };
   

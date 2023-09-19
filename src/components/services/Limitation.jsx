@@ -1,15 +1,17 @@
+import {ContentWrapper, ServiceText, SecondaryText} from '../../components/services/Services.styled.js'
+
 const Limitation = () => {
     return (
-      <section>
-        <h2>Умови оренди</h2>
-        <p>
+      <ContentWrapper>
+        <ServiceText>Умови оренди</ServiceText>
+        <SecondaryText>
         Добовий ліміт з пробігу – 300 км, але не більше 4500 км на місяць. У разі перепробігу кожен кілометр оплачується додатково згідно з тарифами компанії;
 ВАЖЛИВО! Орендар може замовити послугу «Безлімітний пробіг», щоб не обмежувати себе за кілометри. Вартість послуги згідно з тарифами компанії.
-        </p>
-        <p>
+        </SecondaryText>
+        <SecondaryText>
         Ви можете безкоштовно змінити/скасувати своє бронювання.
-        </p>
-      </section>
+        </SecondaryText>
+      </ContentWrapper>
     );
   };
   
