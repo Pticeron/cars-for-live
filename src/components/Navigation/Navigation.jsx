@@ -38,7 +38,7 @@ const Navigation = () => {
         <LogoLink to="/">
           <LogoWrapper>
             <img src={logo} alt="Auto Logo" width={60} height={40} />
-            <LogoText>InHheRoad</LogoText>
+            <LogoText>CfL</LogoText>
           </LogoWrapper>
         </LogoLink>
         {isCatalogOrFavoritePage && (
