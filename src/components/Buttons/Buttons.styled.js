@@ -29,8 +29,6 @@ export const ToTopBtn = styled(FaRegArrowAltCircleUp)`
   width: 100%;
   height: 100%;
   font-size: 40px;
-
-  font-size: 40px;
   display: flex;
 `;
 export const ButtonFollows = styled.button`
@@ -58,7 +56,7 @@ export const LearnMoreBtn = styled.button`
   width: 274px;
   padding: 12px 0;
   color: #fff;
-  font-family: Manrope;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
