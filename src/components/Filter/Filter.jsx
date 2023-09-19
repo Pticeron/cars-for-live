@@ -1,30 +1,37 @@
 import { useEffect, useState } from 'react';
 import {
-  InputBlock,
-  InputsBlock,
-  Label,
-  MileageInputLeft,
-  MileageInputRight,
-  MileageInputWrapper,
-  ModelDropdown,
-  ModelInput,
-  ModelInputBtn,
-  ModelOptionList,
-  ModelOptionListItem,
-  PriceDropdown,
-  PriceInput,
-  PriceInputBtn,
-  PriceOptionList,
-  PriceOptionListItem,
-  SearchBtn,
-  SectionContainer,
+    ArrowDown,
+    ArrowUp,
+    InputBlock,
+    InputsBlock,
+    Label,
+    MileageInputLeft,
+    MileageInputRight,
+    MileageInputWrapper,
+    ModelDropdown,
+    ModelInput,
+    ModelInputBtn,
+    ModelOptionList,
+    ModelOptionListItem,
+    PriceDropdown,
+    PriceInput,
+    PriceInputBtn,
+    PriceOptionList,
+    PriceOptionListItem,
+    SearchBtn,
+    SectionContainer,
 } from './Filter.styled';
 import { toast } from 'react-toastify';
 import CardList from 'components/CardList/CardList';
 import { LoadMoreBtn } from 'components/Buttons/Buttons';
 import Loader from 'components/Loader/Loader';
+import NoCars from 'components/NoCars/NoCaps';
 
-export const Filter = ({ data }) => {
+
+const cardsPerPage = 8;
+
+
+export const FilterSection = ({ data }) => {
     const [model, setModel] = useState('');
     const [price, setPrice] = useState('');
     const [startMiles, setStartMiles] = useState('');
@@ -32,6 +39,7 @@ export const Filter = ({ data }) => {
     const [filteredCars, setFilteredCars] = useState([]);
     const [page, setPage] = useState(1);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+   
     const [showNoCarsMessage, setShowNoCarsMessage] = useState(false); 
   
     useEffect(() => {
@@ -147,7 +155,7 @@ export const Filter = ({ data }) => {
   
       setFilteredCars(arr);
       if (model !== '' || price !== '' || startMiles !== '' || endMiles !== '') {
-        if (filteredCars.length === 0) {
+        if (filteredCars.length === 0 && showNoCarsMessage(false)) {
           setShowNoCarsMessage(true);
           toast.info('No cars matching your criteria found.');
         }
