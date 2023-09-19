@@ -37,36 +37,34 @@ const Card = ({
   rentalConditions,
   mileage,
 }) => {
-const dispatch = useDispatch();
-const favorite = useSelector(state => state.favorite);
-const followStatus = favorite.includes(id);
+  const dispatch = useDispatch();
+  const favorite = useSelector(state => state.favorite);
+  const followStatus = favorite.includes(id);
 
-const [isModalOpen, setIsModalOpen] = useState(false);
-const openModal = () => {
-  setIsModalOpen(true);
-};
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
 
-const closeModal = () => {
-  setIsModalOpen(false);
-}
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
-const incrementFavorite = () => {
-  dispatch(plusToFavoriteList(id));
-};
+  const incrementFavorite = () => {
+    dispatch(plusToFavoriteList(id));
+  };
 
-const decrementFavorite = () => {
-  dispatch(minusToFavoriteList(id));
-}
+  const decrementFavorite = () => {
+    dispatch(minusToFavoriteList(id));
+  };
 
-const addressParts = address.split(', ');
+  const addressParts = address.split(', ');
   const city = addressParts[1];
   const country = addressParts[2];
 
-
   const firstFunctionality = functionalities[0];
 
-
-  return ( 
+  return (
     <Item>
       <CarImgWrap>
         <CarImg src={img} alt={make} />

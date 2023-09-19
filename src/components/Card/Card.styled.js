@@ -10,12 +10,12 @@ export const Item = styled.div`
 `;
 
 export const CarImgWrap = styled.div`
- position: relative;
+  position: relative;
   width: 100%;
 `;
 
 export const CarImg = styled.img`
-display: block;
+  display: block;
   width: 100%;
   max-width: 100%;
   width: 274px;
@@ -54,7 +54,7 @@ export const CarText = styled.li`
 `;
 
 export const ModelName = styled.div`
-color: #672187;
+  color: #672187;
   font-size: 16px;
 `;
 export const ButtonFollows = styled.button`
@@ -79,7 +79,6 @@ export const SecondaryInfo = styled.div`
   align-items: center;
   color: rgba(18, 20, 23, 0.5);
 
-
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -97,7 +96,7 @@ export const SecondaryCarText = styled.div`
 `;
 
 export const LearnMoreBtn = styled.button`
- width: 274px;
+  width: 274px;
   padding: 12px 0;
   color: #fff;
   font-family: Raleway;
@@ -144,4 +143,3 @@ export const HeartIconBlue = styled.button`
   height: 18px;
   url(${heart});
 `;
-
