@@ -1,18 +1,18 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const carsApi = createApi({
-    reducerPath: 'cars',
+    reducerPath: 'car',
     baseQuery: fetchBaseQuery({ baseUrl: 'https://6505e6ddef808d3c66f098f4.mockapi.io/api' }),
-    tagTypes: ['cars'],
+    tagTypes: ['car'],
     endpoints: (builder) => ({
         getCars: builder.query({
-            query: () => `cars`,
+            query: () => `car`,
             providesTags: (result,error,page) => result
             ? [
-                ...result.map(({ id }) => ({ type: 'cars', id })),
-                { type: 'cars', id: 'LIST' },
+                ...result.map(({ id }) => ({ type: 'car', id })),
+                { type: 'car', id: 'LIST' },
             ]
-            : [{ type: 'cars', id: 'LIST' }],
+            : [{ type: 'car', id: 'LIST' }],
         }),
     }),
 });
