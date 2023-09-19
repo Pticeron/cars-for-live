@@ -6,10 +6,12 @@ import {
   HomeTextSecondary,
   HomeWrapper,
 } from './Home.styled';
+import BtnToTop from 'components/Buttons/BtnToTop';
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
     <>
+      <BtnToTop />
       <HeroSection>
         <HomeSection>
           <HomeWrapper>
