@@ -11,7 +11,7 @@ export const ContentWrapper = styled.div`
 `;
 
 export const ServiceText = styled.h2`
-  color: #b0bbd6;
+  color: #672187;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.6;
