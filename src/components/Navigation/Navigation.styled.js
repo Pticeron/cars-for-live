@@ -79,7 +79,7 @@ export const ButtonFilters = styled.button`
 export const Link = styled(NavLink)`
   display: flex;
   font-family: 'Libre+Baskerville', italy;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1.2;
   font-weight: 600;
   color: #660066;

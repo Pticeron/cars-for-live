@@ -166,7 +166,6 @@ export const ServiceTitle = styled.h1`
   font-family: 'Libre+Baskerville', italy;
   position: relative;
   color: #660066;
-  font-size: 18px;
   line-height: 1.4;
   text-shadow: 1px 1px 2px #5c5757;
 
@@ -175,13 +174,13 @@ export const ServiceTitle = styled.h1`
     content: '';
     position: absolute;
     bottom: 10%;
-    left: 23%;
+    left: 25%;
     transform: translateX(-50%);
     width: 180px;
     height: 1px;
     background-color: #660066;
   }
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.2;
   margin-bottom: 50px;
 `;

@@ -17,7 +17,7 @@ const Footer = () => {
       <Container>
         <FooterWrapper>
           <ContactWrapper>
-            <ContactsTitle>Contact Us</ContactsTitle>
+            <ContactsTitle>Наші контакти</ContactsTitle>
             <ContactsText>
               <TelIcon /> +38 (073) 000 00 00
             </ContactsText>

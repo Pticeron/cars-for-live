@@ -61,7 +61,7 @@ export const ContactsTitle = styled.p`
   font-size: 24px;
   line-height: 1.2;
   font-weight: 600;
-  color:  #66066;
+  color:  #660066;
   margin-bottom: 10px;
   text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px,
     rgba(0, 0, 0, 0.5) 1px 1px 1px;
