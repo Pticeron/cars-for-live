@@ -20,16 +20,16 @@ import React, { useState } from 'react';
 import { minusToFavoriteList, plusToFavoriteList } from 'redux/favoriteSlice';
 
 const Card = ({
-  make,
   model,
-  year,
-  rentalPrice,
-  address,
-  rentalCompany,
-  functionalities,
+  make,
   id,
-  type,
   img,
+  year,
+  address,
+  rentalPrice,
+  rentalCompany,
+  type,
+  functionalities,
   fuelConsumption,
   engineSize,
   description,
