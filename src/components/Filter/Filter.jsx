@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React,  { useState, useEffect } from 'react';
 import {
   ArrowDown,
   ArrowUp,
@@ -22,10 +22,12 @@ import {
   SectionContainer,
 } from './Filter.styled';
 import { toast } from 'react-toastify';
-import CarList from 'components/CarList/CarList';
+import CarList from 'components/ListCard/CarList';
 import { LoadMoreBtn } from 'components/Buttons/Buttons';
 import Loader from 'components/Loader/Loader';
 import NoCars from 'components/NoCars/NoCaps';
+
+
 
 const cardsPerPage = 8;
 
@@ -39,12 +41,10 @@ export const FilterSection = ({ data }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [showNoCarsMessage, setShowNoCarsMessage] = useState(false);
-  
+
   useEffect(() => {
     setFilteredCars(data);
   }, [data]);
-
-  console.log(data);
 
   function createArrayWithStep(number, step) {
     const resultArray = [];

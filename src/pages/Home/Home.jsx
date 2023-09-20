@@ -7,30 +7,32 @@ import {
   HomeWrapper,
 } from './Home.styled';
 import BtnToTop from 'components/Buttons/BtnToTop';
+import Container from 'components/Container/Container';
 
 const Home = ({ data }) => {
   return (
     <>
       <BtnToTop />
-      <HeroSection>
-        <HomeSection>
+      <HeroSection />
+      <HomeSection>
+        <Container>
           <HomeWrapper>
             <ContentWrapper>
               <HomeTextMain>
                 У сучасному суспільстві такі цінності як час і комфорт все
                 більше виходять на передній план, тому така послуга як оренда
                 автомобіля – вже перестала бути розкішшю, а стала щоденною
-                необхідністю. 
+                необхідністю.
               </HomeTextMain>
               <HomeTextSecondary>
                 In modern society, such values as time and comfort increasingly
                 come to the fore, so a service such as car rental has ceased to
-                be a luxury, but has become a daily necessity. 
+                be a luxury, but has become a daily necessity.
               </HomeTextSecondary>
             </ContentWrapper>
           </HomeWrapper>
-        </HomeSection>
-      </HeroSection>
+        </Container>
+      </HomeSection>
     </>
   );
 };

@@ -16,20 +16,20 @@ import {
   SecondaryInfo,
 } from './Card.styled';
 import Modal from 'components/Modal/Modal';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { minusToFavoriteList, plusToFavoriteList } from 'redux/favoriteSlice';
 
 const Card = ({
-  model,
   make,
-  id,
-  img,
+  model,
   year,
-  address,
   rentalPrice,
+  address,
   rentalCompany,
-  type,
   functionalities,
+  id,
+  type,
+  img,
   fuelConsumption,
   engineSize,
   description,
