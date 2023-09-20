@@ -12,14 +12,17 @@
 
 ---
 Домашня сторінка містить загальну інформацію про сервіс, доступний користувачу.
+
 ![Home](https://github.com/Pticeron/cars-for-live/blob/main/assets/HomePage.png)
 
 ---
 Навігація пропонує швидкий перехід з домашньої сторінки на сторінку каталога автомобілей, де у користувача є можливість додавати вибрані авто за допомогою символа у вигляді серця.
+
 ![Catalog]([https://github.com/Pticeron/cars-for-live/blob/main/assets/HomePage.png](https://github.com/Pticeron/cars-for-live/blob/main/assets/Catalog.png)
 
 ---
 Для зручного пошуку створено фільтри, за якими користувач може вибирати для себе автівку - за модельним рядом, ціною та пробігом.
+
 ![Catalog](https://github.com/Pticeron/cars-for-live/blob/main/assets/Filter.png)
 
 ---
