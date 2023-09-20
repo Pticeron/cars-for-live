@@ -39,8 +39,7 @@ export const FilterSection = ({ data }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [showNoCarsMessage, setShowNoCarsMessage] = useState(false);
-  console.log(data);
-
+  
   useEffect(() => {
     setFilteredCars(data);
   }, [data]);
