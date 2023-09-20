@@ -2,7 +2,6 @@ import Container from 'components/Container/Container';
 import {
   FooterSection,
   LogoWrapper,
-  LogoText,
   FooterWrapper,
   ContactsTitle,
   ContactWrapper,
@@ -17,10 +16,6 @@ const Footer = () => {
     <FooterSection>
       <Container>
         <FooterWrapper>
-          <LogoWrapper>
-            <img src={auto} alt="Rental Cars" width={320} height={120} />
-            <LogoText>CRS</LogoText>
-          </LogoWrapper>
           <ContactWrapper>
             <ContactsTitle>Contact Us</ContactsTitle>
             <ContactsText>
@@ -30,6 +25,9 @@ const Footer = () => {
               <EmailIcon /> info@CarForLive.com
             </ContactsText>
           </ContactWrapper>
+          <LogoWrapper>
+            <img src={auto} alt="Rental Cars" width={320} height={120} />
+          </LogoWrapper>
         </FooterWrapper>
       </Container>
     </FooterSection>

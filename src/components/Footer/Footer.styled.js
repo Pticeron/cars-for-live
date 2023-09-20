@@ -8,7 +8,7 @@ export const FooterSection = styled.div`
   justify-content: center;
   align-items: center;
   padding: 30px 0;
-  background: #657396;
+  background: #00466e1a;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -38,10 +38,10 @@ export const LogoWrapper = styled.div`
 
 export const LogoText = styled.p`
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre+Baskerville', italy;
   line-height: 1.2;
   font-weight: 600;
-  color: #7b9ed9;
+  color: #66066;
   text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px,
     rgba(0, 0, 0, 0.5) 1px 1px 1px;
   text-shadow: 2px 2px 5px #1d1e26;
@@ -61,7 +61,7 @@ export const ContactsTitle = styled.p`
   font-size: 24px;
   line-height: 1.2;
   font-weight: 600;
-  color: #fff;
+  color:  #66066;
   margin-bottom: 10px;
   text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px,
     rgba(0, 0, 0, 0.5) 1px 1px 1px;
@@ -75,7 +75,7 @@ export const ContactsText = styled.div`
   font-size: 16px;
   line-height: 1;
   font-weight: 400;
-  color: #fff;
+  color:  #66066;
   opacity: 0.6;
 `;
 
@@ -85,7 +85,7 @@ export const TelIcon = styled(BsFillTelephoneInboundFill)`
   margin: 0;
   padding: 10px;
 
-  color: #fff;
+  color: #66066;
   opacity: 0.6;
 `;
 export const EmailIcon = styled(MdEmail)`
@@ -94,6 +94,6 @@ export const EmailIcon = styled(MdEmail)`
   margin: 0;
   padding: 10px;
 
-  color: #fff;
+  color:  #66066;
   opacity: 0.6;
 `;

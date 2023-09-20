@@ -21,7 +21,7 @@ export const NavBlock = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
 `;
 
 export const NavListItem = styled.li`
@@ -63,8 +63,8 @@ export const ButtonFilters = styled.button`
   position: relative;
   background-color: transparent;
   border: none;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
 
   color: #fff;
@@ -173,7 +173,7 @@ export const LogoLink = styled(NavLink)`
 export const LogoText = styled.p`
   display: block;
   font-family: 'Libre+Baskerville', italy;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
   position: absolute;
