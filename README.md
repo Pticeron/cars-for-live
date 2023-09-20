@@ -27,6 +27,7 @@
 
 ---
 В разі помилкового запиту відображається сторінка помилки 404.
+
 ![Error]([https://github.com/Pticeron/cars-for-live/blob/main/assets/Filter.png](https://github.com/Pticeron/cars-for-live/blob/main/assets/ErrorPage.png)
 
 ---
