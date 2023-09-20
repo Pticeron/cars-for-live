@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from '../Card/Card';
-import { List, ListItem, SectionContainer } from './Card.List.styled';
+import { List, ListItem, SectionContainer } from './CarList.styled';
 
-const CardList = ({ cars }) => {
+const CarList = ({ cars }) => {
   return (
     <>
       <SectionContainer>
@@ -36,4 +36,4 @@ const CardList = ({ cars }) => {
   );
 };
 
-export default CardList;
+export default CarList;

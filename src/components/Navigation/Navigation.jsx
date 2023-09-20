@@ -29,10 +29,13 @@ const Navigation = () => {
             </Link>
           </NavListItem>
           <NavListItem>
-            <Link to="/catalog">Catalogue</Link>
+            <Link to="/catalog">Каталог</Link>
           </NavListItem>
           <NavListItem>
-            <Link to="/favorites">Favorites</Link>
+            <Link to="/favorites">Улюблене</Link>
+          </NavListItem>
+          <NavListItem>
+            <Link to="/about">Інформація</Link>
           </NavListItem>
         </NavBlock>
         <LogoLink to="/">
