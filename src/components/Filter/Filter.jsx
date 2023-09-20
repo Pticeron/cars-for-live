@@ -155,8 +155,8 @@ export const FilterSection = ({ data }) => {
     });
 
     setFilteredCars(arr);
-    if (model !== '' || price !== '' || startMiles !== '' || endMiles !== '') {
-      if (filteredCars.length === 0) {
+    if (model !== '' || price !== '' || startMiles !== '' || endMiles !== '' || showNoCarsMessage !== 'true') {
+      if (filteredCars.length === 0 ) {
         setShowNoCarsMessage(true);
         toast.info('No cars matching your criteria found.');
       }

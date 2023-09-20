@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import errImage from '../../images/NotFound.jpg';
 
 export const Wrapper = styled.main`
   height: 100vh;
@@ -8,12 +9,20 @@ export const SectionContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background: url(${errImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  
 `;
 
 export const ErrorImg = styled.img`
   display: block;
-  width: 40%;
-  height: 40%;
+  width: 70%;
+  height: 70%;
   object-fit: cover;
   object-position: center center;
   `;
