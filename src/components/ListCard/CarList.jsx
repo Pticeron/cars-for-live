@@ -9,7 +9,7 @@ const CarList = ({ cars }) => {
       <SectionContainer>
         <List>
           {cars.map(car => (
-            <ListItem>
+            <ListItem key={car.id}>
               <Card
                 model={car.model}
                 make={car.make}
