@@ -33,7 +33,7 @@ export const HeroTextMain = styled.h1`
   font-family: 'Libre+Baskerville', italy;
   color: #b0bbd6;
   font-weight: 700;
-  font-size: 66px;
+  font-size: 96px;
   line-height: 1.2;
   text-shadow: 1px 1px 2px #5c5757;
 `;
@@ -41,6 +41,6 @@ export const HeroTextMain = styled.h1`
 export const HeroTextSecondary = styled.h2`
   color: #b0bbd6;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 36px;
   line-height: 1.6;
 `;

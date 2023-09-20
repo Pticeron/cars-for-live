@@ -103,7 +103,7 @@ export const RentalButton = styled.a`
   border-radius: 12px;
   background: #5a7aaf;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.43;
   text-decoration: none;
