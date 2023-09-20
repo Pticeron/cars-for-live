@@ -13,7 +13,7 @@ const HeroSection = () => {
       <Container>
         <ContentWrapper>
           <HeroTextMain>Ми там, де завжди потрібні</HeroTextMain>
-          <HeroTextSecondary>"Прокат автомобілів в Україні"</HeroTextSecondary>
+          <HeroTextSecondary>Прокат автомобілів в Україні</HeroTextSecondary>
           <RentalBtn width="160px" />
         </ContentWrapper>
       </Container>
