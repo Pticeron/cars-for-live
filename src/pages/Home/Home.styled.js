@@ -12,7 +12,7 @@ export const HomeSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0 0;
+  padding: 50px 0 50px 0;
 `;
 
 export const HomeWrapper = styled.div`

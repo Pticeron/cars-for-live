@@ -8,6 +8,7 @@ import {
 } from './Home.styled';
 import BtnToTop from 'components/Buttons/BtnToTop';
 import Container from 'components/Container/Container';
+import Conditions from 'components/Сonditions/Сonditions';
 
 const Home = ({ data }) => {
   return (
@@ -30,7 +31,8 @@ const Home = ({ data }) => {
                 be a luxury, but has become a daily necessity.
               </HomeTextSecondary>
             </ContentWrapper>
-          </HomeWrapper>
+            </HomeWrapper>
+            <Conditions />
         </Container>
       </HomeSection>
     </>
