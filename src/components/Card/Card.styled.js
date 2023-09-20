@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import heart from '../../images/heart.svg';
-import normal from '../../images/normal.svg';
+import { HiOutlineHeart } from 'react-icons/hi';
+import { HiHeart } from 'react-icons/hi';
 
 export const Item = styled.div`
   width: 274px;
@@ -128,18 +128,16 @@ export const IconBtn = styled.button`
   background-color: transparent;
 `;
 
-export const HeartIcon = styled.button`
+export const HeartIcon = styled(HiOutlineHeart)`
   display: block;
   color: rgb(255 255 255 / 80%);
   width: 18px;
   height: 18px;
-  url(${normal});
-`;
+  `;
 
-export const HeartIconBlue = styled.button`
+export const HeartIconBlue = styled(HiHeart)`
   display: block;
   color: #3470ff;
   width: 18px;
   height: 18px;
-  url(${heart});
 `;

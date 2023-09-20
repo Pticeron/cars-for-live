@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ErrorImg, ErrorText, ErrorTextErr, HomeBtn, SectionContainer, Wrapper } from "./NotFoundPage.styled";
 import Container from "components/Container/Container";
-import errImage from '../../images/404.png';
+import errImage from '../../images/NotFound.jpg';
 
 const NotFoundPage =  () => {
 const navigate = useNavigate();

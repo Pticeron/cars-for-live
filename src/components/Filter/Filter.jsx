@@ -22,10 +22,11 @@ import {
   SectionContainer,
 } from './Filter.styled';
 import { toast } from 'react-toastify';
-import CarList from 'components/ListCard/CarList';
+
 import { LoadMoreBtn } from 'components/Buttons/Buttons';
 import Loader from 'components/Loader/Loader';
 import NoCars from 'components/NoCars/NoCaps';
+import CarList from 'components/ListCard/CarList';
 
 
 

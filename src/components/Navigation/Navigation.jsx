@@ -24,7 +24,7 @@ const Navigation = () => {
       <NavList>
         <NavBlock>
           <NavListItem>
-            <Link>
+            <Link to='/'>
               <HomeIcon />
             </Link>
           </NavListItem>

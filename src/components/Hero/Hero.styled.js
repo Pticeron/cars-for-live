@@ -9,7 +9,7 @@ export const Hero = styled.div`
       rgba(47, 48, 58, 0.5)
     ),
     url(${bg});
-
+ font-family: 'Libre+Baskerville', italy;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -29,9 +29,9 @@ export const ContentWrapper = styled.div`
 `;
 
 export const HeroTextMain = styled.h1`
-  color: #fff;
-  font-weight: 900;
-  font-size: 86px;
+  color: #b0bbd6;
+  font-weight: 700;
+  font-size: 66px;
   line-height: 1.2;
   text-shadow: 1px 1px 2px #5c5757;
 `;
@@ -43,6 +43,3 @@ export const HeroTextSecondary = styled.h2`
   line-height: 1.6;
 `;
 
-export const SpanText = styled.span`
-  color: #5a7aaf;
-`;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { FaTachometerAlt, FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
+import {BsFillHouseFill } from 'react-icons/bs'
 import { NavLink } from 'react-router-dom';
 
 export const Nav = styled.nav`
@@ -42,7 +43,7 @@ export const GoBackLink = styled(NavLink)`
   margin-right: 10px;
 
   svg {
-    fill: #7b9ed9;
+    fill: #660066;
   }
 
   &.active,
@@ -77,11 +78,11 @@ export const ButtonFilters = styled.button`
 
 export const Link = styled(NavLink)`
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre+Baskerville', italy;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
-  color: #7b9ed9;
+  color: #660066;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -108,15 +109,15 @@ export const Link = styled(NavLink)`
   }
 `;
 
-export const HomeIcon = styled(FaTachometerAlt)`
+export const HomeIcon = styled(BsFillHouseFill)`
   width: 20px;
   height: 20px;
   margin: 0;
   padding: 10px;
 
-  color: #7b9ed9;
+  color: #660066;
   border-radius: 50%;
-  border: 3px solid #7b9ed9;
+  border: 3px solid #660066;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +152,7 @@ export const LogoWrapper = styled.div`
 export const LogoLink = styled(NavLink)`
   display: flex;
 
-  color: #7b9ed9;
+  color: #66066;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -171,11 +172,12 @@ export const LogoLink = styled(NavLink)`
 
 export const LogoText = styled.p`
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre+Baskerville', italy;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 600;
   position: absolute;
+  color: #660066;
   top: -6px;
   right: -20px;
 `;
