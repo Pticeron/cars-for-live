@@ -60,7 +60,7 @@ export const ErrorImg = styled.img`
 export const HomeBtn = styled.button`
   padding: 10px 30px;
   color: #fff;
-  font-family: Manrope;
+  font-family: 'Raleway';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

@@ -40,7 +40,6 @@ export const FilterSection = ({ data }) => {
   const [filteredCars, setFilteredCars] = useState([]);
   const [page, setPage] = useState(1);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   const [showNoCarsMessage, setShowNoCarsMessage] = useState(false);
 
   useEffect(() => {

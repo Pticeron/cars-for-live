@@ -130,9 +130,9 @@ export const GoBackIcon = styled(FaArrowLeft)`
   height: 20px;
   margin-left: 10px;
   padding: 10px;
-  color: #7b9ed9;
+  color: #660066;
   border-radius: 50%;
-  border: 3px solid #7b9ed9;
+  border: 3px solid #660066;
   display: flex;
   justify-content: center;
   align-items: center;
