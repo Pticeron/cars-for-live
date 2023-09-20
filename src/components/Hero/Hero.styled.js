@@ -23,12 +23,14 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  gap: 30px;
+  gap: 80px;
   width: 800px;
   align-items: flex-start;
+  margin-top: 80px;
 `;
 
 export const HeroTextMain = styled.h1`
+font-family: 'Libre+Baskerville', italy;
   color: #b0bbd6;
   font-weight: 700;
   font-size: 66px;
@@ -39,7 +41,7 @@ export const HeroTextMain = styled.h1`
 export const HeroTextSecondary = styled.h2`
   color: #b0bbd6;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 1.6;
 `;
 

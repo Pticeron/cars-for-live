@@ -34,9 +34,9 @@ export const ContentWrapper = styled.div`
 `;
 
 export const HomeTextMain = styled.h1`
-  color: #fff;
+  color: #660066;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 1.2;
   text-shadow: 1px 1px 2px #5c5757;
 `;
