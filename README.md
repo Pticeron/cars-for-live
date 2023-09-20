@@ -16,12 +16,15 @@
 
 ---
 Навігація пропонує швидкий перехід з домашньої сторінки на сторінку каталога автомобілей, де у користувача є можливість додавати вибрані авто за допомогою символа у вигляді серця.
+![Catalog]([https://github.com/Pticeron/cars-for-live/blob/main/assets/HomePage.png](https://github.com/Pticeron/cars-for-live/blob/main/assets/Catalog.png)
 
 ---
 Для зручного пошуку створено фільтри, за якими користувач може вибирати для себе автівку - за модельним рядом, ціною та пробігом.
+![Catalog](https://github.com/Pticeron/cars-for-live/blob/main/assets/Filter.png)
 
 ---
 В разі помилкового запиту відображається сторінка помилки 404.
+![Error]([https://github.com/Pticeron/cars-for-live/blob/main/assets/Filter.png](https://github.com/Pticeron/cars-for-live/blob/main/assets/ErrorPage.png)
 
 ---
 В подальшому планується розробити адаптивний функціонал для можливості використання додатку на мобільних пристроях та планшетах.
