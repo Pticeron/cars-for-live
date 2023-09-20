@@ -4,7 +4,7 @@ export const ServicesSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:  30px auto;
+  margin: 30px auto;
   padding: 70px 0 70px;
   background: #00466e1a;
 
@@ -53,7 +53,6 @@ export const ServiceContent = styled.div`
   font-size: 24px;
   font-family: 'Libre+Baskerville', italy;
   color: #fff;
-
 `;
 
 export const ServiceCardWrapper = styled.div`

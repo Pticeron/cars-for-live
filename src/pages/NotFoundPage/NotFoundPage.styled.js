@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import errImage from '../../images/NotFound.jpg';
 
 export const Wrapper = styled.main`
@@ -16,7 +16,6 @@ export const SectionContainer = styled.section`
   background-position: center;
   width: 100%;
   height: 100vh;
-  
 `;
 
 export const ErrorImg = styled.img`
@@ -25,9 +24,9 @@ export const ErrorImg = styled.img`
   height: 70%;
   object-fit: cover;
   object-position: center center;
-  `;
+`;
 
-  export const ErrorText = styled.p`
+export const ErrorText = styled.p`
   background-color: transparent;
   border: none;
   padding: 28px;
@@ -40,9 +39,9 @@ export const ErrorImg = styled.img`
   text-shadow: 2px 2px 5px #1d1e26;
   padding: 0;
   margin: 0;
-  `;
+`;
 
-  export const ErrorTextErr = styled.p`
+export const ErrorTextErr = styled.p`
   background-color: transparent;
   border: none;
   padding: 28px;
@@ -74,5 +73,5 @@ export const HomeBtn = styled.button`
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
     background: #0b44cd;
-}
+  }
 `;

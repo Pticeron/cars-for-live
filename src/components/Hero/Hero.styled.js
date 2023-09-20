@@ -9,7 +9,7 @@ export const Hero = styled.div`
       rgba(47, 48, 58, 0.5)
     ),
     url(${bg});
- font-family: 'Libre+Baskerville', italy;
+  font-family: 'Libre+Baskerville', italy;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -30,7 +30,7 @@ export const ContentWrapper = styled.div`
 `;
 
 export const HeroTextMain = styled.h1`
-font-family: 'Libre+Baskerville', italy;
+  font-family: 'Libre+Baskerville', italy;
   color: #b0bbd6;
   font-weight: 700;
   font-size: 66px;
@@ -44,4 +44,3 @@ export const HeroTextSecondary = styled.h2`
   font-size: 26px;
   line-height: 1.6;
 `;
-

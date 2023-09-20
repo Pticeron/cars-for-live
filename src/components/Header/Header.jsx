@@ -1,15 +1,15 @@
-import Container from "components/Container/Container";
-import { AppBar } from "./Header.styled";
-import Navigation from "components/Navigation/Navigation";
+import Container from 'components/Container/Container';
+import { AppBar } from './Header.styled';
+import Navigation from 'components/Navigation/Navigation';
 
 const Header = () => {
- return(
+  return (
     <AppBar>
-        <Container>
-            <Navigation />
-        </Container>
+      <Container>
+        <Navigation />
+      </Container>
     </AppBar>
- )
-}
+  );
+};
 
 export default Header;

@@ -6,10 +6,10 @@ export const carsApi = createApi({
     baseUrl: 'https://6505e6ddef808d3c66f098f4.mockapi.io/',
   }),
   tagTypes: ['car'],
-  endpoints: (builder) => ({
+  endpoints: builder => ({
     getCars: builder.query({
       query: () => `car`,
-      providesTags: (result) =>
+      providesTags: result =>
         result
           ? [
               ...result.map(({ id }) => ({ type: 'car', id })),
