@@ -12,7 +12,7 @@ import {
   NavList,
   NavListItem,
 } from './Navigation.styled';
-import { logo } from '../../images/auto.png';
+import logo from '../../images/auto.png';
 
 const Navigation = () => {
   const location = useLocation();
@@ -33,9 +33,6 @@ const Navigation = () => {
           </NavListItem>
           <NavListItem>
             <Link to="/favorites">Улюблене</Link>
-          </NavListItem>
-          <NavListItem>
-            <Link to="/about">Інформація</Link>
           </NavListItem>
         </NavBlock>
         <LogoLink to="/">

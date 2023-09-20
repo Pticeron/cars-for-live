@@ -68,7 +68,7 @@ export const ContactsTitle = styled.p`
   text-shadow: 2px 2px 5px #1d1e26;
 `;
 
-export const ContactsText = styled.did`
+export const ContactsText = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
